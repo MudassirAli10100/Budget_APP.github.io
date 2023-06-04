@@ -1,0 +1,74 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #f1f1f1;
+    padding: 30px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  .transaction-list {
+    margin-top: 20px;
+  }
+  
+  .transaction-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+  }
+  
+  .transaction-item .name {
+    font-weight: bold;
+  }
+  
+  .transaction-item .amount {
+    color: #888;
+  }
+  
+  .transaction-item .delete-btn {
+    float: right;
+    color: #f44336;
+    cursor: pointer;
+  }
